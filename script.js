@@ -198,10 +198,6 @@
 
       $("#code").show().typewriter();
       $("#clock-box").fadeIn(500);
-      while (true) {
-        timeElapse(together);
-        $await(Jscex.Async.sleep(1000));
-      }
     }),
   );
 
